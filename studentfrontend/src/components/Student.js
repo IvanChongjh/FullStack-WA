@@ -54,6 +54,7 @@ export default function Student() {
     value={address} onChange={(e)=>setAddress(e.target.value)}/>
           <Button variant="contained" endIcon={<SendIcon />} onClick ={handleClick}>
         Send
+
       </Button>
       <h1>Students</h1>
 
@@ -68,7 +69,6 @@ export default function Student() {
         </Paper>
       ))
     }
-
 
     </Paper>
     
